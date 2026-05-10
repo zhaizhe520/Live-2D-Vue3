@@ -7,6 +7,7 @@ export const usePetStore = defineStore('pet', {
     isVisible: false,
     lastTrigger: null // 紀錄最後一個觸發的組件 ID，防止閃爍
   }),
+  
   actions: {
     // 進入組件時呼叫
     showPet(text, id) {
