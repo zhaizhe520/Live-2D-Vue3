@@ -1,5 +1,32 @@
-# Vue 3 + Vite
+# 这是一个vue3+live2d交互效果的轻量版开源项目
+## 模型是丛雨，可自定义
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+#  详细实现效果可查看技术博客
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+`https://zhaizhe520.github.io/`
+
+# 技术栈
+
+核心框架：Vue 3
+
+职责：总指挥部。管理宠物生命周期、数据绑定及 UI 逻辑。
+
+渲染引擎：PixiJS
+
+职责：视网膜与肌肉。基于 WebGL 提供高性能、丝滑的模型渲染。
+
+模型桥接：pixi-live2d-display
+
+职责：翻译官。解析 Live2D 模型数据并同步至 PixiJS 画布。
+
+构建工具：Vite
+
+职责：加速器。负责秒级开发响应与极致的打包优化。
+
+状态管理：Pinia
+
+职责：记忆中枢。集中存储宠物的情绪、等级等核心数据。
+
+由 Vue 3 统筹全局，PixiJS 驱动视觉，通过 插件 唤醒 Live2D 模型，并依托 Vite 极速开发。
+
+小项目
