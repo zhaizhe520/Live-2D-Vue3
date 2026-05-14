@@ -1,4 +1,6 @@
 <script setup>
+
+
 // 從 vue 中引入生命週期鉤子和響應式 API
 import { onMounted, onUnmounted, ref, shallowRef } from 'vue';
 // 引入整個 PixiJS 繪圖引擎庫
