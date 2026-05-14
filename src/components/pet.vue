@@ -11,13 +11,13 @@ import { Live2DModel } from 'pixi-live2d-display/cubism4';
 // 使用 storeToRefs 保持響應性
 import { storeToRefs } from 'pinia'
 
-import { usePetStore } from '../store/petStore'
+import { usePetStore } from '../stores/petStore'
 const petStore = usePetStore()
 
 
 //打字機
 // 1. 引入你的打字機 js
-import { useTypewriter } from '../composables/useTypewriter'
+import { useTypewriter } from '../utils/useTypewriter'
 
 const { message, isVisible } = storeToRefs(petStore)
 

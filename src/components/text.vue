@@ -1,6 +1,6 @@
 <!-- 例如：Navbar.vue -->
 <script setup>
-import { usePetStore } from '../store/petStore'
+import { usePetStore } from '../stores/petStore'
 const petStore = usePetStore()
 const componentId = 'nav-home' // 每個組件給一個唯一的 ID
 </script>

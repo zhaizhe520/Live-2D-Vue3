@@ -1,5 +1,6 @@
 // src/directives/petTip.js
-import { usePetStore } from '../store/petStore'
+//封包的函数,v-pet-tip:"'你好'"
+import { usePetStore } from '../stores/petStore'
 
 export const vPetTip = {
   mounted(el, binding) {

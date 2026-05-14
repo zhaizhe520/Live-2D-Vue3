@@ -1,6 +1,6 @@
 <!-- 例如：Navbar.vue -->
 <script setup>
-import { usePetStore } from '../store/petStore'
+import { usePetStore } from '../stores/petStore'
 
 const petStore = usePetStore()
 
